@@ -1,6 +1,6 @@
 # AAMFeedbackLocalizeExample
 
-This is custom Localize Example of [azu/AAMFeedback](https://github.com/azu/AAMFeedback "azu/AAMFeedback").
+This is custom localization Example of [azu/AAMFeedback](https://github.com/azu/AAMFeedback "azu/AAMFeedback").
 
 ## Usage
 
