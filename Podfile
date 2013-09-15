@@ -2,7 +2,7 @@
 # platform :ios, "6.0"
 
 target "AAMFeedbackLocalizeExample" do
-	pod 'AAMFeedback', :path => '/Users/azu/Dropbox/workspace/iOS/library/AAMFeedback'
+	pod 'AAMFeedback', :git => 'https://github.com/azu/AAMFeedback.git'
 end
 
 target "AAMFeedbackLocalizeExampleTests" do
