@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  AAMFeedbackViewController
+
+  Created by Takayuki Fukatsu on 11/11/30.
+  Copyright (c) 2011年 Art & Mobile. All rights reserved.
+*/
+
+// カスタムフィードバック
+"AAMFeedbackTitle" = "お問い合わせ";
+"AAMFeedbackTopicsTitle" = "選択項目";
+
+"AAMFeedbackButtonMail" = "メール";
+"AAMFeedbackDescriptionPlaceholder" = "詳細をよろしく";
+
+//Table Headers
+"AAMFeedbackTableHeaderTopics" = "入力するところ";
+"AAMFeedbackTableHeaderBasicInfo" = "端末の状態";
+
+//Topics Options
+"AAMFeedbackTopicsQuestion" = "質問";
+"AAMFeedbackTopicsRequest" = "リクエスト";
+"AAMFeedbackTopicsBugReport" = "バグ報告";
+"AAMFeedbackTopicsMedia" = "マスメディア";
+"AAMFeedbackTopicsBusiness" = "ビジネス";
+"AAMFeedbackTopicsOther" = "その他";
+
+"AAMFeedbackMailDidFinishWithError" = "送信に失敗しました。しばらく時間をおいてからもう一度お試しください。";

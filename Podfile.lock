@@ -1,0 +1,17 @@
+PODS:
+  - AAMFeedback (0.0.6):
+    - UIDeviceIdentifier
+  - UIDeviceIdentifier (0.1)
+
+DEPENDENCIES:
+  - AAMFeedback (from `/Users/azu/Dropbox/workspace/iOS/library/AAMFeedback`)
+
+EXTERNAL SOURCES:
+  AAMFeedback:
+    :path: /Users/azu/Dropbox/workspace/iOS/library/AAMFeedback
+
+SPEC CHECKSUMS:
+  AAMFeedback: 71ac810ed31de33725d71b72377ac43d11435531
+  UIDeviceIdentifier: 64036321b0f77ff41b4200002f0c138431c00d86
+
+COCOAPODS: 0.24.0

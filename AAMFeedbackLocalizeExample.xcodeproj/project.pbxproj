@@ -23,6 +23,9 @@
 		7375085217E58E6400C40216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7375082D17E58E6400C40216 /* Foundation.framework */; };
 		7375085A17E58E6400C40216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7375085817E58E6400C40216 /* InfoPlist.strings */; };
 		7375085D17E58E6400C40216 /* AAMFeedbackLocalizeExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7375085C17E58E6400C40216 /* AAMFeedbackLocalizeExampleTests.m */; };
+		73E28FC917E5907000E6FB45 /* AAMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73E28FC717E5907000E6FB45 /* AAMLocalizable.strings */; };
+		73E28FCF17E5909500E6FB45 /* AAMFeedbackLocalizeExample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7375083317E58E6400C40216 /* AAMFeedbackLocalizeExample-Info.plist */; };
+		FAD44BC4483C418392713A71 /* libPods-AAMFeedbackLocalizeExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDAD464CA85437FA82662AF /* libPods-AAMFeedbackLocalizeExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B5C70479F60E2A66647EFA /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		7375082817E58E6400C40216 /* AAMFeedbackLocalizeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAMFeedbackLocalizeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7375082B17E58E6400C40216 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7375082D17E58E6400C40216 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7375082F17E58E6400C40216 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7375083317E58E6400C40216 /* AAMFeedbackLocalizeExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AAMFeedbackLocalizeExample-Info.plist"; sourceTree = "<group>"; };
+		7375083317E58E6400C40216 /* AAMFeedbackLocalizeExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AAMFeedbackLocalizeExample-Info.plist"; sourceTree = "<group>"; };
 		7375083517E58E6400C40216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7375083717E58E6400C40216 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7375083917E58E6400C40216 /* AAMFeedbackLocalizeExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AAMFeedbackLocalizeExample-Prefix.pch"; sourceTree = "<group>"; };
@@ -58,6 +62,11 @@
 		7375085917E58E6400C40216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7375085B17E58E6400C40216 /* AAMFeedbackLocalizeExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAMFeedbackLocalizeExampleTests.h; sourceTree = "<group>"; };
 		7375085C17E58E6400C40216 /* AAMFeedbackLocalizeExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAMFeedbackLocalizeExampleTests.m; sourceTree = "<group>"; };
+		73E28FC817E5907000E6FB45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AAMLocalizable.strings; sourceTree = "<group>"; };
+		73E28FCA17E5907800E6FB45 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AAMLocalizable.strings; sourceTree = "<group>"; };
+		73E28FCE17E5909500E6FB45 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AAMLocalizable.strings; sourceTree = "<group>"; };
+		ECDAD464CA85437FA82662AF /* libPods-AAMFeedbackLocalizeExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AAMFeedbackLocalizeExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD91D47C1EB24DD5B423AEB8 /* Pods-AAMFeedbackLocalizeExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAMFeedbackLocalizeExample.xcconfig"; path = "Pods/Pods-AAMFeedbackLocalizeExample.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,7 @@
 				7375082C17E58E6400C40216 /* UIKit.framework in Frameworks */,
 				7375082E17E58E6400C40216 /* Foundation.framework in Frameworks */,
 				7375083017E58E6400C40216 /* CoreGraphics.framework in Frameworks */,
+				FAD44BC4483C418392713A71 /* libPods-AAMFeedbackLocalizeExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +101,8 @@
 				7375085517E58E6400C40216 /* AAMFeedbackLocalizeExampleTests */,
 				7375082A17E58E6400C40216 /* Frameworks */,
 				7375082917E58E6400C40216 /* Products */,
+				FD91D47C1EB24DD5B423AEB8 /* Pods-AAMFeedbackLocalizeExample.xcconfig */,
+				17B5C70479F60E2A66647EFA /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +122,7 @@
 				7375082D17E58E6400C40216 /* Foundation.framework */,
 				7375082F17E58E6400C40216 /* CoreGraphics.framework */,
 				7375084F17E58E6400C40216 /* SenTestingKit.framework */,
+				ECDAD464CA85437FA82662AF /* libPods-AAMFeedbackLocalizeExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,6 +143,7 @@
 		7375083217E58E6400C40216 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				73E28FC717E5907000E6FB45 /* AAMLocalizable.strings */,
 				7375083317E58E6400C40216 /* AAMFeedbackLocalizeExample-Info.plist */,
 				7375083417E58E6400C40216 /* InfoPlist.strings */,
 				7375083717E58E6400C40216 /* main.m */,
@@ -167,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7375086017E58E6400C40216 /* Build configuration list for PBXNativeTarget "AAMFeedbackLocalizeExample" */;
 			buildPhases = (
+				5EC133866C88450F9F3BACFC /* Check Pods Manifest.lock */,
 				7375082417E58E6400C40216 /* Sources */,
 				7375082517E58E6400C40216 /* Frameworks */,
 				7375082617E58E6400C40216 /* Resources */,
+				18981EC9583B41D08127C2D7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +230,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
+				es,
 			);
 			mainGroup = 7375081F17E58E6400C40216;
 			productRefGroup = 7375082917E58E6400C40216 /* Products */;
@@ -236,6 +254,8 @@
 				7375084017E58E6400C40216 /* Default@2x.png in Resources */,
 				7375084217E58E6400C40216 /* Default-568h@2x.png in Resources */,
 				7375084517E58E6400C40216 /* MainStoryboard.storyboard in Resources */,
+				73E28FC917E5907000E6FB45 /* AAMLocalizable.strings in Resources */,
+				73E28FCF17E5909500E6FB45 /* AAMFeedbackLocalizeExample-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +270,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		18981EC9583B41D08127C2D7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-AAMFeedbackLocalizeExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EC133866C88450F9F3BACFC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		7375084C17E58E6400C40216 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,6 +369,16 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		73E28FC717E5907000E6FB45 /* AAMLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73E28FC817E5907000E6FB45 /* en */,
+				73E28FCA17E5907800E6FB45 /* ja */,
+				73E28FCE17E5909500E6FB45 /* es */,
+			);
+			name = AAMLocalizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -380,6 +440,7 @@
 		};
 		7375086117E58E6400C40216 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD91D47C1EB24DD5B423AEB8 /* Pods-AAMFeedbackLocalizeExample.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AAMFeedbackLocalizeExample/AAMFeedbackLocalizeExample-Prefix.pch";
@@ -391,6 +452,7 @@
 		};
 		7375086217E58E6400C40216 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD91D47C1EB24DD5B423AEB8 /* Pods-AAMFeedbackLocalizeExample.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AAMFeedbackLocalizeExample/AAMFeedbackLocalizeExample-Prefix.pch";
@@ -453,6 +515,7 @@
 				7375086217E58E6400C40216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7375086317E58E6400C40216 /* Build configuration list for PBXNativeTarget "AAMFeedbackLocalizeExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +524,7 @@
 				7375086517E58E6400C40216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
